@@ -7,5 +7,6 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 COPY *.html /usr/share/nginx/html/
 
 EXPOSE 80
-STOPSIGNAL SIGTERM
+# Comment the next line if you are using sockets
+STOPSIGNAL SIGQUIT
 CMD ["nginx", "-g", "daemon off;"]
