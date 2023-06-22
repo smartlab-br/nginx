@@ -1,4 +1,2 @@
 # SmartLab NGINX
-NGINX for use in Smartlab Project
-
-*TODO: Write this.*
+Base Nginx image to be used across Smartlab Projects.
